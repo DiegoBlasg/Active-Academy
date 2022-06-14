@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <!--====== HEADER ======-->
+    <!--====== MENU ======-->
 
     <video autoplay muted loop id="myVideo" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
         <source src="assets/images/170804_C_Lombok_060.mp4" type="video/mp4">
@@ -64,21 +64,27 @@
                             <div class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-100 mt-full lg:static lg:bg-transparent lg:shadow-none"
                                 id="navbarOne">
                                 <ul id="nav"
-                                    class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
+                                    class="items-center text-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
                                     <li class="nav-item active">
                                         <a class="page-scroll" href="#quienessomos">¿quienes somos?</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#valores">valores</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#actividades">Actividades</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#ejemplo">Ejemplo</a>
+                                        <a class="page-scroll" href="#dondeestamos">¿Donde estamos?</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#ejemplovideo">Ejemplo con video</a>
+                                        <a class="page-scroll" href="#quehacemos">¿Que hacemos?</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#nosotros">Nosotros</a>
+                                        <a class="page-scroll" href="#eventos">Eventos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#sobrenosotros">Sobre nosotros</a>
                                     </li>
                                 </ul>
                             </div>
@@ -93,9 +99,9 @@
                 </div>
             </div>
         </div>
-        <div id="home" class="header-hero">
+        <div id="home" class="header-hero" style="height: 100vh;">
             <div class="container">
-                <div class="justify-center row">
+                <div class="justify-center row h-full">
                     <div class="w-full lg:w-2/3">
                         <div class="pt-32 mb-12 text-center lg:pt-48 header-hero-content">
                             <h3 class="text-4xl font-light leading-tight text-white header-sub-title wow fadeInUp"
@@ -108,13 +114,6 @@
                             </p>
                             <a class="main-btn gradient-btn gradient-btn-2 wow fadeInUp page-scroll"
                                 href="#quienessomos" data-wow-duration="1.3s" data-wow-delay="1.1s">¿Quienes somos?</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="justify-center row">
-                    <div class="w-full lg:w-2/3">
-                        <div class="text-center header-hero-image wow fadeIn" data-wow-duration="1.3s"
-                            data-wow-delay="1.4s" style="height:300px">
                         </div>
                     </div>
                 </div>
@@ -135,23 +134,60 @@
                             <div class="line"></div>
                             <h3 class="title">¿Quienes somos?</h3>
                         </div>
-                        <p class="mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                            est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                        <a href="javascript:void(0)" class="main-btn gradient-btn">Enlace</a>
+                        <p class="mb-8">
+                            Active Academy nace de la ilusión por impulsar el
+                            deporte y los valores al que éste acompañan, así como
+                            su beneficio para la sociedad en general,
+                            centrándonos especialmente en la población joven,a
+                            la cual queremos hacer partícipe y protagonista de
+                            esta aventura.
+
+                        </p>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2">
                     <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
                         data-wow-delay="0.5s">
-                        <img src="assets/images/ej.jpg" alt="about">
+                        <img src="assets/images/logo.png" class="m-auto" alt="about">
                     </div>
                 </div>
             </div>
         </div>
         <div class="about-shape-1">
             <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+
+    <!--====== Valores ======-->
+
+    <section id="valores" class="relative pt-20 about-area">
+        <div class="about-shape-2">
+            <img src="assets/images/about-shape-2.svg" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2 lg:order-last">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">Valores</h3>
+                            <h5 class="title" style="font-size: 3vh;">#Vive #Experimenta #Respeta</h5>
+                        </div>
+                        <p>Cultura del esfuerzo, perseverancia y trabajo en equipo a
+                            través de situaciones de juego tanto individuales como
+                            colectivas, serán nuestros pilares básicos para el
+                            desarrollo personal íntegro, el autoconocimiento y el
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:order-first">
+                    <div class="mx-4 mt-8 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/valores.jpg" alt="about">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -168,67 +204,179 @@
                 </div>
             </div>
             <div class="row testimonial-active wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.8s">
-                <div class="w-full lg:w-1/3">
+                <div class="col-lg-4">
                     <div class="single-testimonial">
                         <div class="pb-10 text-center card-title">
-                            <h5 class="title">Futbol</h5>
-                        </div>
-                        <div class="mb-8">
-                            <p>Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor
-                                invidunt labore.Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu.
-                            </p>
+                            <h5 class="title" style="font-size: 30px;">Badminton</h5>
                         </div>
 
-                        <img class="w-full" src="assets/images/iStock-949190756.jpg" alt="Sunset in the mountains">
+                        <img class="w-full" style="height: 200px;" src="assets/images/badminton.jpg"
+                            alt="Sunset in the mountains">
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single-testimonial">
                         <div class="pb-10 text-center card-title">
-                            <h5 class="title">Voley</h5>
+                            <h5 class="title" style="font-size: 30px;">Tenis</h5>
                         </div>
-                        <div class="mb-8">
-                            <p>Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor
-                                invidunt labore.Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu.
-                            </p>
-                        </div>
-                        <img class="w-full" src="assets/images/iStock-949190756.jpg" alt="Sunset in the mountains">
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-testimonial">
-                        <div class="pb-10 text-center card-title">
-                            <h5 class="title">Baloncesto</h5>
-                        </div>
-                        <div class="mb-8">
-                            <p>Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor
-                                invidunt labore.Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu.
-                            </p>
-                        </div>
-                        <img class="w-full" src="assets/images/iStock-949190756.jpg" alt="Sunset in the mountains">
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-testimonial">
-                        <div class="pb-10 text-center card-title">
-                            <h5 class="title">Tenis</h5>
 
+                        <img class="w-full" style="height: 200px;" src="assets/images/tenis.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Dance</h5>
                         </div>
-                        <div class="mb-8">
-                            <p>Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor
-                                invidunt labore.Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu.
-                            </p>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/baile.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Canto</h5>
                         </div>
-                        <img class="w-full" src="assets/images/iStock-949190756.jpg" alt="Sunset in the mountains">
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/canto.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Voley</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/voley.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Desarrollo de videojuegos</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/videojuegos.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Piano</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/piano.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Skate</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/sjate.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Patinaje</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/patinaje.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Baloncesto</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/baloncesto.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Step</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/step.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Guitarra</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/guitarra.jpg"
+                            alt="Sunset in the mountains">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-testimonial">
+                        <div class="pb-10 text-center card-title">
+                            <h5 class="title" style="font-size: 30px;">Fútbol</h5>
+                        </div>
+
+                        <img class="w-full" style="height: 200px;" src="assets/images/futbol.jpg"
+                            alt="Sunset in the mountains">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--====== EJEMPLO ======-->
+    <!--====== ¿Donde estamos? ======-->
 
-    <section id="ejemplo" class="relative pt-20 about-area">
+    <section id="dondeestamos" class="relative pt-20 about-area">
+        <div class="container">
+            <div class="row">
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="mb-4 section-title">
+                            <div class="line"></div>
+                            <h3 class="title">¿Donde estamos?</h3>
+                            <h5 class="title" style="font-size: 3vh;">+de 15 #Colegios #institutos #Casas
+                                juventud #Ayuntamientos</h5>
+                        </div>
+                        <p>A lo largo de los últimos años hemos desarrollado
+                            nuestra actividad en diferentes instituciones
+                            colaborando con unos 15 centros de carácter público y
+                            concertado. Dando servicio tanto directamente como a
+                            través del Banco de Actividades del Ayuntamiento de
+                            Zaragoza.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <img src="assets/images/zaragoza.jpg" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-shape-1">
+            <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+
+    <!--====== ¿Que Hacemos? ======-->
+
+    <section id="quehacemos" class="relative pt-20 about-area">
         <div class="about-shape-2">
             <img src="assets/images/about-shape-2.svg" alt="shape">
         </div>
@@ -239,27 +387,107 @@
                         data-wow-delay="0.5s">
                         <div class="mb-4 section-title">
                             <div class="line"></div>
-                            <h3 class="title">Ejemplo</h3>
+                            <h3 class="title">¿Que hacemos?</h3>
+                            <h5 class="title" style="font-size: 3vh;">Planificación + Desarrollo Actividades</h5>
                         </div>
-                        <p class="mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod
-                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                            est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                        <a href="javascript:void(0)" class="main-btn gradient-btn">Enlace</a>
+                        <p>Apostamos por actividades que generen hábitos
+                            saludables y activos, desarrollando las diferentes
+                            destrezas e inteligencias de la persona, impulsando las
+                            fortalezas de cada uno de los participantes. Con grupos
+                            de edades comprendidas entre 3-18 años, así cono
+                            actividades impartidas para adultos.
+                        </p>
+
+
+
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2 lg:order-first">
-                    <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                    <div class="mx-4 mt-8 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
                         data-wow-delay="0.5s">
-                        <img src="assets/images/iStock-949190756.jpg" alt="about">
+                        <img src="assets/images/quehacemos.png" alt="about">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--====== EVENTOS ======-->
 
+    <section id="eventos" class="testimonial-area pt-120">
+        <div class="container">
+            <div class="justify-center row">
+                <div class="w-full lg:w-2/3">
+                    <div class="pb-10 text-center section-title">
+                        <div class="m-auto line"></div>
+                        <h3 class="title">Eventos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="w-full lg:w-1/2 lg:order-last">
+                        <div class="mx-4 about-content wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <div class="mb-4 section-title">
+                                <h3 class="title">Nombre del evento</h3>
+                                <h5 class="title" style="font-size: 3vh;">Subtitulo</h5>
+                            </div>
+                            <p>
+                                descripcion
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cumque reiciendis
+                                voluptatibus eum, aliquid distinctio ad officia eveniet illo perferendis alias,
+                                nisi odit officiis accusamus exercitationem assumenda. Repellendus, possimus
+                                voluptatibus!
+                            </p>
+                            <a href="javascript:void(0)" class="main-btn gradient-btn"
+                                style="margin-top: 20px;">Enlace</a>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 lg:order-first">
+                        <div class="mx-4 mt-8 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <img src="assets/images/evento.jpg" alt="about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-shape-2">
+                <img src="assets/images/about-shape-2.svg" alt="shape">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="w-full lg:w-1/2">
+                        <div class="mx-4 mt-12 about-content wow fadeInLeftBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <div class="mb-4 section-title">
+                                <h3 class="title">Nombre del evento</h3>
+                                <h5 class="title" style="font-size: 3vh;">Subtitulo</h5>
+                            </div>
+                            <p>
+                                descripcion
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam cumque reiciendis
+                                voluptatibus eum, aliquid distinctio ad officia eveniet illo perferendis alias,
+                                nisi odit officiis accusamus exercitationem assumenda. Repellendus, possimus
+                                voluptatibus!
+                            </p>
+                            <a href="javascript:void(0)" class="main-btn gradient-btn"
+                                style="margin-top: 20px;">Enlace</a>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="mx-4 mt-12 text-center about-image wow fadeInRightBig" data-wow-duration="1s"
+                            data-wow-delay="0.5s">
+                            <img src="assets/images/evento.jpg" alt="about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-shape-1">
+                <img src="assets/images/about-shape-1.svg" alt="shape">
+            </div>
+        </div>
+    </section>
     <!--====== EJEMPLO CON VIDEO ======-->
-
+    <!--
     <section id="ejemplovideo" class="pt-20 video-counter">
         <div class="container">
             <div class="row">
@@ -292,16 +520,26 @@
         </div>
         </div>
     </section>
+-->
+    <!--====== Sobre NOSOTROS ======-->
 
-    <!--====== NOSOTROS ======-->
-
-    <section id="nosotros" class="team-area pt-120">
+    <section id="sobrenosotros" class="team-area pt-120">
         <div class="container">
             <div class="justify-center row">
                 <div class="w-full lg:w-2/3">
                     <div class="pb-8 text-center section-title">
                         <div class="m-auto line"></div>
-                        <h3 class="title">Nosotros</h3>
+                        <h3 class="title">Sobre nosotros</h3>
+                        <p class="mt-10">
+                            La familia Active Academy está compuesta por Sergio y Jorje, apasionados por la enseñanza,
+                            de
+                            vocación profesores y actualmente estando en activo, son los que se encargan de la
+                            Planificación y desarrollo de las actividades que promueve Active Academy. Además siendo
+                            igual
+                            de importante, Active Academy está compuesta por un equipo de monitores y entrenadores todos
+                            titulados con gran experiencia, siendo el pilar fundamental un trato excelente con las
+                            personas.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -309,7 +547,7 @@
                 <div class="w-full sm:w-2/3 lg:w-1/3">
                     <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="relative team-image">
-                            <img class="w-full" src="assets/images/team-1.png" alt="Team">
+                            <img class="w-full" src="assets/images/Usuario-Vacio.png" alt="Team">
                             <div class="team-social">
                                 <ul>
                                     <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
@@ -320,15 +558,15 @@
                             </div>
                         </div>
                         <div class="p-8">
-                            <h5 class="mb-1 text-xl font-bold text-gray-900">Isabela Moreira</h5>
-                            <p>Founder and CEO</p>
+                            <h5 class="mb-1 text-xl font-bold text-gray-900">Sergio Martinez</h5>
+                            <!--<p>Founder and CEO</p>-->
                         </div>
                     </div>
                 </div>
                 <div class="w-full sm:w-2/3 lg:w-1/3">
                     <div class="mt-8 text-center single-team wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="relative team-image">
-                            <img class="w-full" src="assets/images/team-2.png" alt="Team">
+                            <img class="w-full" src="assets/images/Usuario-Vacio.png" alt="Team">
                             <div class="team-social">
                                 <ul>
                                     <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
@@ -339,8 +577,8 @@
                             </div>
                         </div>
                         <div class="p-8">
-                            <h5 class="mb-1 text-xl font-bold text-gray-900">Elon Musk</h5>
-                            <p>Sr. Software Engineer</p>
+                            <h5 class="mb-1 text-xl font-bold text-gray-900">Jorje Blasco</h5>
+                            <!--<p>Sr. Software Engineer</p>-->
                         </div>
                     </div>
                 </div>
@@ -350,19 +588,17 @@
 
     <!--====== FOOTER ======-->
 
-    <footer id="footer" class="relative z-10 footer-area pt-120" style="margin-top: -120px;">
+    <footer class="relative z-10 footer-area pt-120" style="margin-top: -120px;">
         <div class="footer-bg" style="background-image: url(assets/images/footer-bg.svg);"></div>
         <div class="container">
             <div class="footer-widget pb-120" style="margin-top: 350px;">
                 <div class="row">
                     <div class="w-4/5 md:w-3/5 lg:w-2/6">
-                        <div class="mt-12 footer-about wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div id="footer" class="mt-12 footer-about wow fadeIn" data-wow-duration="1s"
+                            data-wow-delay="0.2s">
                             <a class="inline-block mb-8 logo" href="index.html">
                                 <img src="assets/images/logo.png" alt="logo" class="w-40">
                             </a>
-                            <p class="pb-10 pr-10 leading-snug text-white">Lorem ipsum dolor sit amet consetetur
-                                sadipscing elitr, sederfs diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                aliquyam.</p>
                             <ul class="flex footer-social">
                                 <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
