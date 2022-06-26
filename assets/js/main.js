@@ -41,7 +41,7 @@ $(function () {
     $('.testimonial-active').slick({
         dots: true,
         speed: 800,
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: "0",
         slidesToShow: 3,
